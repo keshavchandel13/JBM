@@ -22,14 +22,14 @@ const TopBar = () => {
 
       {/* logo */}
 
-      <div className=" w-32 h-12 mx-60">
+      <div className=" w-32 h-12 mx-60 mix-blend-multiply">
         {" "}
         <img src="./public/logo.PNG" alt="" />
       </div>
 
       {/* contact number */}
 
-      <div className="flex items-center mr-12">
+      <div className="flex items-center mr-10">
         <div className="mr-1 text-2xl">
           <IoCall />
         </div>
@@ -39,10 +39,34 @@ const TopBar = () => {
       {/* Social media */}
 
       <div className="flex gap-2 items-center">
-        <div className="text-2xl"><FaFacebook /></div>
-        <div className="text-2xl"><FaInstagram /></div>
-        <div className="text-2xl"><FaTwitter /></div>
-        <div className="text-2xl"><FaWhatsappSquare /></div>
+        <div className="text-xl "><a
+            href="https://facebook.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaFacebook />
+          </a></div>
+        <div className="text-xl"><a
+            href="https://instagram.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaInstagram />
+          </a></div>
+        <div className="text-xl"> <a
+            href="https://twitter.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaTwitter />
+          </a></div>
+        <div className="text-xl"> <a
+            href="https://whatsapp.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaWhatsappSquare />
+          </a></div>
       </div>
     </div>
   );

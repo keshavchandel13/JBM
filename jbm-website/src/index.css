@@ -1,3 +1,34 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@100..700&display=swap');
+body{
+  background-color: #fffdf1;
+}
+.satisfy-regular {
+    font-family: "Satisfy", cursive;
+    font-weight: 100;
+    font-style: normal;
+  }
+.dancing-script-unique {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("../public/i9.jpeg");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+  
