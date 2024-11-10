@@ -13,7 +13,7 @@ const ContactHead = () => {
         <div className="flex   mx-auto h-10" style={{ width: "25rem" }}>
           <img src="./public/design.png" alt="" style={{ width: "25rem" }} />
         </div>
-        <div className="text-center my-8">
+      <div className="text-center my-8 ">
           {/* PARA 1 */}
           <p>
             We are passionate about filmmaking and photography, and it's an

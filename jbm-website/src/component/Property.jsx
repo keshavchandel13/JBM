@@ -6,11 +6,11 @@ const Property = () => {
         {/* Header */}
         <div className='text-center mb-10'>
             <h1 className='text-4xl font-bold mb-4 text-gray-800'>Property Shoots</h1>
-            <p className='text-gray-600 text-xl'>Capturing The Beauty and Essence Of The Properties </p>
+            <p className='text-gray-600 text-xl lora-unique'>Capturing The Beauty and Essence Of The Properties </p>
         </div>
 
         {/* Property images grid*/}
-        <div className='grid grid-cols-3 grid-rows-2 px-4 gap-8'>
+        <div className='grid grid-cols-3 grid-rows-2 px-4 gap-8 lora-unique'>
             {/* Property image 1 */}
             <div className='relative overflow-hidden rounded-lg shadow-lg'>
                 <img src="./public/p1.jpg" alt="property-image-1" className='w-full object-cover' />

@@ -8,7 +8,7 @@ const Wedding = () => {
         <p className="text-xl text-gray-600 mt-2">Capturing the essence of love and joy</p>
       </div>
       
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-4 lora-unique lora-unique">
         {/* Image 1 */}
         <div className="relative overflow-hidden rounded-lg shadow-lg">
           <img src="./public/i7.jpeg" alt="Wedding Moment 1" className="w-full h-full object-cover" />

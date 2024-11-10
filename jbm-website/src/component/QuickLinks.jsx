@@ -67,7 +67,7 @@ const QuickLinks = () => {
             href="https://facebook.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-blue-600"
+            className="text-blue-600"
           >
             <FaFacebook />
           </a>
@@ -75,7 +75,7 @@ const QuickLinks = () => {
             href="https://twitter.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-blue-400"
+            className="text-blue-400"
           >
             <FaTwitter />
           </a>
@@ -83,7 +83,7 @@ const QuickLinks = () => {
             href="https://www.instagram.com/jbmphotos_studio?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-pink-600"
+            className="text-pink-600"
           >
             <FaInstagram />
           </a>
@@ -91,7 +91,7 @@ const QuickLinks = () => {
             href="https://whatsapp.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-green-500"
+            className="text-green-500"
           >
             <FaWhatsappSquare />
           </a>
