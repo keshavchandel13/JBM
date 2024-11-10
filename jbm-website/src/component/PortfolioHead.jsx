@@ -6,7 +6,7 @@ const PortfolioHead = () => {
       <div
         className="parallax p-10 flex flex-col items-center justify-center text-center h-[400px] text-white text-purple-800"
         style={{
-          backgroundImage: 'url("./public/i11.jpg")',
+          backgroundImage: 'url("/i11.jpg")',
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",

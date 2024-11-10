@@ -23,11 +23,11 @@ import Packages from "./component/Packages";
 import Property from "./component/Property";
 function App() {
   const images = [
-    "./public/i11.jpg",
-    "./public/i10.jpeg",
-    "./public/i7.jpeg",
-    "./public/i8.jpeg",
-    "./public/i9.jpeg",
+    "/i11.jpg",
+    "/i10.jpeg",
+    "/i7.jpeg",
+    "/i8.jpeg",
+    "/i9.jpeg",
   ];
   // Use useEffect to call the backend API when the component mounts
   useEffect(() => {

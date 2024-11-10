@@ -10,7 +10,7 @@ const AboutUs = () => {
     <div className="relative group w-60 h-80 ">
     {/* Image Section */}
     <img
-      src="./public/kartik.jpg" 
+      src="/kartik.jpg" 
       alt="Leader"
       className="w-full h-full object-cover rounded-lg transition-all duration-300 "
     />

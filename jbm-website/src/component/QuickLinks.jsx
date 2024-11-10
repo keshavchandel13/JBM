@@ -14,7 +14,7 @@ const QuickLinks = () => {
         {/* Logo Section */}
         <div className="flex flex-col items-center md:items-start mb-6 md:mb-0">
           <img
-            src="./public/logo.png"
+            src="/logo.png"
             alt="Logo"
             className="h-16 mb-2 mix-blend-multiply"
           />

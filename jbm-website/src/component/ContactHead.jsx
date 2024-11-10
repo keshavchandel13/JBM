@@ -11,7 +11,7 @@ const ContactHead = () => {
       <div className="my-4">
         {/* Design image */}
         <div className="flex   mx-auto h-10" style={{ width: "25rem" }}>
-          <img src="./public/design.png" alt="" style={{ width: "25rem" }} />
+          <img src="/design.png" alt="" style={{ width: "25rem" }} />
         </div>
       <div className="text-center my-8 ">
           {/* PARA 1 */}
@@ -49,7 +49,7 @@ const ContactHead = () => {
         {/* Design image */}
 
         <div className="flex mx-auto h-10" style={{ width: "25rem" }}>
-          <img src="./public/design.png" alt="" style={{ width: "25rem" }} />
+          <img src="/design.png" alt="" style={{ width: "25rem" }} />
         </div>
       </div>
     </>
