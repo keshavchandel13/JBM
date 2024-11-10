@@ -27,7 +27,7 @@ const PortfolioHead = () => {
         </div>
 
         {/* Call to action button */}
-        <a href="#projects" className="bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-6 rounded-full transition-all">
+        <a href="#wedding-section" className="bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-6 rounded-full transition-all">
           View My Work
         </a>
       </div>

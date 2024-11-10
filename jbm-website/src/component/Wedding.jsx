@@ -2,7 +2,7 @@ import React from 'react';
 
 const Wedding = () => {
   return (
-    <div className="bg-gray-100 py-12">
+    <div id="wedding-section" className="bg-gray-100 py-12">
       <div className="text-center mb-10">
         <h1 className="text-4xl font-bold text-gray-800">Wedding Celebration</h1>
         <p className="text-xl text-gray-600 mt-2">Capturing the essence of love and joy</p>

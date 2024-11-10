@@ -22,9 +22,10 @@ import Portfolio from "./component/Portfolio";
 import Wedding from "./component/Wedding";
 import PreWedding from "./component/PreWedding";
 import Packages from "./component/Packages";
+import Property from "./component/Property";
 function App() {
   const images = [
-    "./public/i5.jpeg",
+    "./public/i11.jpg",
     "./public/i10.jpeg",
     "./public/i7.jpeg",
     "./public/i8.jpeg",
@@ -50,7 +51,8 @@ function App() {
               <>
                 {" "}
                 <ImageSlider images={images} interval={5000} /> <MidBody />{" "}
-                <Services /> <ContactForm /> <Links />
+                <Services />
+                <Packages/> <ContactForm /> <Links />
                 <QuickLinks /> <Rights />
               </>
             }
@@ -72,7 +74,8 @@ function App() {
             element={
               <>
                 {""}
-                <AboutHead /> <AboutUs/> <MissionAndVision/> <Services /> 
+                <AboutHead /> <AboutUs/> <MissionAndVision/> <Services />
+                <Map/> 
                 <ContactForm /> <Links />
                 <QuickLinks /> <Rights />
               </>
@@ -88,6 +91,7 @@ function App() {
                 <Portfolio/>
                 <Wedding/>
                 <PreWedding/>
+                <Property/>
                 <Packages/>
 
                 <ContactForm /> <Links />

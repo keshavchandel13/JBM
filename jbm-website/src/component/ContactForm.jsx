@@ -2,9 +2,9 @@ import React from "react";
 const ContactForm = () => {
 
   return (
-    <div className="parallax p-10 mt-8">
+    <div className="parallax p-10  font-bold">
       {/* Heading of the contact form */}
-      <div className="text-5xl text-center mb-6 text-white ">Contact Us!</div>
+      <div className="text-5xl text-center mb-6 text-white  hover:underline decoration-gray-700 ">Contact Us!</div>
       <div className="bg-none">
         {/* contact form */}
         <form action="/submit-form" method="post" className="space-y-4">
@@ -19,11 +19,19 @@ const ContactForm = () => {
           </div>
           <div>
             <input 
+              id="phone"
+              className="bg-transparent border-b-2 border-white p-2 w-full text-white placeholder-gray-300  focus:outline-none focus:border-orange-400" 
+              type="number" 
+              placeholder="Phone Number" 
+              required 
+            />
+          </div>
+          <div>
+            <input 
               id="email"
               className="bg-transparent border-b-2 border-white p-2 w-full text-white placeholder-gray-300 focus:outline-none focus:border-orange-400" 
               type="email" 
               placeholder="Email" 
-              required 
             />
           </div>
           <div>

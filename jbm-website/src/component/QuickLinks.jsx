@@ -1,20 +1,24 @@
 import React from "react";
-import { FaFacebook } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa";
-import { FaWhatsappSquare } from "react-icons/fa";
-const Footer = () => {
+import {
+  FaFacebook,
+  FaInstagram,
+  FaTwitter,
+  FaWhatsappSquare,
+} from "react-icons/fa";
+import { Link } from "react-router-dom";
+
+const QuickLinks = () => {
   return (
-    <footer className="bg-gray-100 p-3">
-      <div className="container mx-auto flex justify-between items-start mt-6 ">
+    <footer className="bg-gray-100 p-6">
+      <div className="container mx-auto flex flex-col md:flex-row justify-between items-start mt-6">
         {/* Logo Section */}
-        <div className="flex flex-col items-center mt-4 ">
+        <div className="flex flex-col items-center md:items-start mb-6 md:mb-0">
           <img
             src="./public/logo.png"
             alt="Logo"
-            className="h-16 mb-2  mix-blend-multiply"
+            className="h-16 mb-2 mix-blend-multiply"
           />
-          <p className="text-center text-xl">
+          <p className="text-center md:text-center text-xl">
             JBM
             <br />
             PHOTOS & STUDIO
@@ -22,89 +26,48 @@ const Footer = () => {
         </div>
 
         {/* Quick Links Section */}
-        <div className="flex flex-col space-y-4">
-          <h2 className="text-5xl font-semibold satisfy-regular mb-3 before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-pink-500 relative inline-block" style={{'color':'#4D3529'}}>
-           <span className="relative text-white"> Quick Links </span>
+        <div className="flex flex-col space-y-4 mb-6 md:mb-0">
+          <h2
+            className="text-5xl font-semibold satisfy-regular mb-3 before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-pink-500 relative inline-block"
+            style={{ color: "#4D3529" }}
+          >
+            <span className="relative text-white">Quick Links</span>
           </h2>
-          <div className="flex space-x-12">
+          <div className="flex flex-wrap md:space-x-12">
             <ul className="space-y-2">
               <li>
-                <a
-                  href="#homepage"
-                  className="text-gray-700 hover:text-gray-900"
-                >
+                <Link to="/" className="text-gray-700 hover:text-gray-900">
                   Homepage
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#about-us"
-                  className="text-gray-700 hover:text-gray-900"
-                >
+                <Link to="/about-us" className="text-gray-700 hover:text-gray-900">
                   About Us
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#special-recognition"
-                  className="text-gray-700 hover:text-gray-900"
-                >
-                  Special Recognition
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#achievement"
-                  className="text-gray-700 hover:text-gray-900"
-                >
-                  Achievement
-                </a>
+                </Link>
               </li>
             </ul>
             <ul className="space-y-2">
               <li>
-                <a
-                  href="#contact-us"
-                  className="text-gray-700 hover:text-gray-900"
-                >
+                <Link to="/contact" className="text-gray-700 hover:text-gray-900">
                   Contact Us
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#pre-post-wedding"
-                  className="text-gray-700 hover:text-gray-900"
-                >
+                <Link to="/portfolio" className="text-gray-700 hover:text-gray-900">
                   Pre & Post Wedding
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#wedding"
-                  className="text-gray-700 hover:text-gray-900"
-                >
-                  Wedding
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#fashion"
-                  className="text-gray-700 hover:text-gray-900"
-                >
-                  Fashion
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
         </div>
 
         {/* Social Media Section */}
-        <div className="flex space-x-4 p-12 text-2xl">
+        <div className="flex space-x-6 justify-center md:justify-start text-2xl">
           <a
             href="https://facebook.com"
             target="_blank"
             rel="noopener noreferrer"
-            className=""
+            className="hover:text-blue-600"
           >
             <FaFacebook />
           </a>
@@ -112,6 +75,7 @@ const Footer = () => {
             href="https://twitter.com"
             target="_blank"
             rel="noopener noreferrer"
+            className="hover:text-blue-400"
           >
             <FaTwitter />
           </a>
@@ -119,6 +83,7 @@ const Footer = () => {
             href="https://www.instagram.com/jbmphotos_studio?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
             target="_blank"
             rel="noopener noreferrer"
+            className="hover:text-pink-600"
           >
             <FaInstagram />
           </a>
@@ -126,6 +91,7 @@ const Footer = () => {
             href="https://whatsapp.com"
             target="_blank"
             rel="noopener noreferrer"
+            className="hover:text-green-500"
           >
             <FaWhatsappSquare />
           </a>
@@ -134,5 +100,4 @@ const Footer = () => {
     </footer>
   );
 };
-
-export default Footer;
+export default QuickLinks;

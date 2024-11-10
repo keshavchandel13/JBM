@@ -3,7 +3,14 @@
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@100..700&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
 body{
+
   background-color: #fffdf1;
 }
 .satisfy-regular {
@@ -31,4 +38,30 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+/* Hover effects */
+.hover-overlay {
+  position: relative;
+  overflow: hidden;
+}
+
+.hover-overlay::after {
+  content: 'Explore More';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 1rem;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.hover-overlay:hover::after {
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.5); 
+  padding: 10px;
+}
+
+
   
