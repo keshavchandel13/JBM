@@ -23,7 +23,7 @@ const MidBody = () => {
         </div>
         <div
           className="w-40 h-60 bg-cover ml-24"
-          style={{ backgroundImage: "url('/2.jpg')" }}
+          style={{ backgroundImage: "url('/kartik.jpg')" }}
         ></div>
       </div>
     </div>

@@ -11,16 +11,16 @@ const Services = () => {
       {/* services */}
       <div className="flex justify-evenly mt-8 text-center text-xl dancing-script-unique">
         <div className="">
-            <div className="w-52 h-72 bg-cover" style={{'backgroundImage':"URL('./public/i3.jpeg')"}}></div>
+            <div className="w-52 h-72 bg-cover mb-2" style={{'backgroundImage':"URL('./public/i3.jpeg')"}}></div>
             <p>PRE WEDDING</p>
         </div>
         <div >
-            <div className="w-52 h-72 bg-cover" style={{'backgroundImage':"URL('./public/i1.jpeg')"}}></div>
+            <div className="w-52 h-72 bg-cover mb-2" style={{'backgroundImage':"URL('./public/wedImg.jpg')"}}></div>
             <p>WEDDING</p>
         </div>
         <div>
-            <div className="w-52 h-72 bg-cover" style={{'backgroundImage':"URL('')"}}></div>
-            <p>PARTY COVERAGE</p>
+            <div className="w-52 h-72 bg-cover bg-center mb-2 " style={{'backgroundImage':"URL('./public/property.jpg')"}}></div>
+            <p>PROPERTY SHOOTS</p>
         </div>
 
       </div>

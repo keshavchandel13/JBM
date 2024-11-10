@@ -3,9 +3,9 @@ import React from "react";
 const ContactHead = () => {
   return (
     <>
-      <div className="parallax p-10 flex text-6xl items-center justify-center">
+      <div className="parallax p-10 flex text-7xl items-center justify-center text-white  " style={{'backgroundImage':'url("./public/contact-bg.jpg")'}}>
         {/* Heading of the contact form */}
-        <div className=" ">CONTACT US</div>
+        <div className="font-bold ">CONTACT US</div>
       </div>
 
       <div className="my-4">

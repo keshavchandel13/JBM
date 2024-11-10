@@ -14,7 +14,14 @@ import Rights from "./component/Rights";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ContactHead from "./component/ContactHead";
 import Map from "./component/Map";
-
+import AboutHead from "./component/AboutHead";
+import AboutUs from "./component/AboutUs";
+import MissionAndVision from "./component/MissionAndVision";
+import PortfolioHead from "./component/PortfolioHead";
+import Portfolio from "./component/Portfolio";
+import Wedding from "./component/Wedding";
+import PreWedding from "./component/PreWedding";
+import Packages from "./component/Packages";
 function App() {
   const images = [
     "./public/i5.jpeg",
@@ -36,6 +43,7 @@ function App() {
         <TopBar />
         <Navbar />
         <Routes>
+          {/* Home page */}
           <Route
             path="/"
             element={
@@ -47,12 +55,42 @@ function App() {
               </>
             }
           />
+          {/* Contact page */}
           <Route
             path="/contact"
             element={
               <>
                 {""}
                 <ContactHead /> <Services /> <Map /> <ContactForm /> <Links />
+                <QuickLinks /> <Rights />
+              </>
+            }
+          />
+          {/* About Us */}
+          <Route
+            path="/about-us"
+            element={
+              <>
+                {""}
+                <AboutHead /> <AboutUs/> <MissionAndVision/> <Services /> 
+                <ContactForm /> <Links />
+                <QuickLinks /> <Rights />
+              </>
+            }
+          />
+          {/* Portfolio page */}
+          <Route
+            path="/portfolio"
+            element={
+              <>
+                {""}
+                <PortfolioHead/>
+                <Portfolio/>
+                <Wedding/>
+                <PreWedding/>
+                <Packages/>
+
+                <ContactForm /> <Links />
                 <QuickLinks /> <Rights />
               </>
             }
