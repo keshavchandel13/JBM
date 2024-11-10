@@ -21,7 +21,7 @@ const TopBar = () => {
 
       <div className=" w-32 h-12 mx-60 mix-blend-multiply">
         {" "}
-        <img src="/logo.PNG" alt="" />
+        <img src="/logo.png" alt="" />
       </div>
 
       {/* contact number */}
