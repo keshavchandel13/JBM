@@ -11,13 +11,13 @@ const Wedding = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-4 lora-unique lora-unique">
         {/* Image 1 */}
         <div className="relative overflow-hidden rounded-lg shadow-lg">
-          <img src="/i7.jpeg" alt="Wedding Moment 1" className="w-full h-full object-cover" />
+          <img src="/i14.jpg" alt="Wedding Moment 1" className="w-full h-full object-cover" />
           <div className="absolute bottom-4 left-4 text-white font-semibold text-lg">The First Dance</div>
         </div>
 
         {/* Image 2 */}
         <div className="relative overflow-hidden rounded-lg shadow-lg">
-          <img src="/i8.jpeg" alt="Wedding Moment 2" className="w-full h-full object-cover" />
+          <img src="/i16.jpg" alt="Wedding Moment 2" className="w-full h-72  object-top  object-cover" />
           <div className="absolute bottom-4 left-4 text-white font-semibold text-lg">The Vows</div>
         </div>
 
@@ -29,7 +29,7 @@ const Wedding = () => {
 
         {/* Image 4 */}
         <div className="relative overflow-hidden rounded-lg shadow-lg">
-          <img src="/i4.jpeg" alt="Wedding Moment 4" className="w-full h-full object-cover" />
+          <img src="/i17.jpg" alt="Wedding Moment 4" className="w-full h-72 object-contain" />
           <div className="absolute bottom-4 left-4 text-white font-semibold text-lg">Wedding Cake Cutting</div>
         </div>
 

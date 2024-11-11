@@ -13,7 +13,7 @@ const Services = () => {
       <div className="flex justify-evenly mt-8 text-center text-xl dancing-script-unique">
         <Link to={"/portfolio"}>
         <div className="hover-overlay">
-            <div className="w-52 h-72 bg-cover mb-2" style={{'backgroundImage':"URL('/i3.jpeg')"}}></div>
+            <div className="w-52 h-72 bg-cover mb-2" style={{'backgroundImage':"URL('/i2.jpeg')"}}></div>
             <p>PRE WEDDING</p>
         </div>
         </Link>
