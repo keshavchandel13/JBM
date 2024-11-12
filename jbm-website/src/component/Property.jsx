@@ -10,10 +10,10 @@ const Property = () => {
         </div>
 
         {/* Property images grid*/}
-        <div className='grid grid-cols-3 grid-rows-2 px-4 gap-8 lora-unique'>
+        <div className='grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-8 px-8 lora-unique'>
             {/* Property image 1 */}
             <div className='relative overflow-hidden rounded-lg shadow-lg'>
-                <img src="/p1.jpg" alt="property-image-1" className='w-full object-cover' />
+                <img src="/p1.jpg" alt="property-image-1" className='w-full h-full object-cover' />
                 <div className='absolute left-4 text-white bottom-1 font-semibold text-xl '>Luxury Rooms</div>
             </div>
             {/* Property image 2 */}
@@ -42,7 +42,7 @@ const Property = () => {
                 <div className='absolute left-4 text-white bottom-1 font-semibold text-xl '>Marriage Palace</div>
             </div>
 
-        </div>
+        </div>  
       
     </div>
   )

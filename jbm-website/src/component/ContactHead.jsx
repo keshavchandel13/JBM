@@ -3,9 +3,14 @@ import React from "react";
 const ContactHead = () => {
   return (
     <>
-      <div className="parallax p-10 flex text-7xl items-center justify-center text-white  " style={{'backgroundImage':'url("/contact-bg.jpg")'}}>
+      <div
+        className="parallax p-10 flex text-white items-center justify-center"
+        style={{ backgroundImage: 'url("/contact-bg.jpg")' }}
+      >
         {/* Heading of the contact form */}
-        <div className="font-bold ">CONTACT US</div>
+        <div className="font-bold text-4xl sm:text-5xl md:text-6xl  lg:text-7xl xl:text-7xl">
+          CONTACT US
+        </div>
       </div>
 
       <div className="my-4">
@@ -13,7 +18,7 @@ const ContactHead = () => {
         <div className="flex   mx-auto h-10" style={{ width: "25rem" }}>
           <img src="/design.png" alt="" style={{ width: "25rem" }} />
         </div>
-      <div className="text-center my-8 ">
+        <div className="text-center my-8 ">
           {/* PARA 1 */}
           <p>
             We are passionate about filmmaking and photography, and it's an
