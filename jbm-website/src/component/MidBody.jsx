@@ -22,7 +22,7 @@ const MidBody = () => {
           <br /> that you'll treasure forever.
         </div>
         <div
-          className="w-40 h-60 bg-cover ml-24 "
+          className="w-40 h-60 bg-cover ml-24"
           style={{ backgroundImage: "url('/kartik.jpg')" }}
         ></div>
       </div>
@@ -31,8 +31,3 @@ const MidBody = () => {
 };
 export default MidBody;
 
-// font-size: 13px;
-// justify-content: left;
-// padding: 0px;
-// margin: 0px;
-// width: 85rem;

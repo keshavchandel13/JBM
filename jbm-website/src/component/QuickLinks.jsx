@@ -10,15 +10,15 @@ import { Link } from "react-router-dom";
 const QuickLinks = () => {
   return (
     <footer className="bg-gray-100 p-6">
-      <div className="container mx-auto flex flex-col md:flex-row justify-between items-start mt-6">
+      <div className="container mx-auto flex flex-col lg:flex-row justify-between items-center lg:items-start mt-6 gap-6">
         {/* Logo Section */}
-        <div className="flex flex-col items-center md:items-start mb-6 md:mb-0">
+        <div className="flex flex-col items-center lg:items-start mb-6 lg:mb-0">
           <img
             src="/logo.png"
             alt="Logo-jbm"
             className="h-16 mb-2 mix-blend-multiply"
           />
-          <p className="text-center md:text-center text-xl">
+          <p className="text-center lg:text-left text-xl">
             JBM
             <br />
             PHOTOS & STUDIO
@@ -26,14 +26,14 @@ const QuickLinks = () => {
         </div>
 
         {/* Quick Links Section */}
-        <div className="flex flex-col space-y-4 mb-6 md:mb-0">
+        <div className="flex flex-col space-y-4 mb-6 lg:mb-0 lg:mx-12">
           <h2
-            className="text-5xl font-semibold satisfy-regular mb-3 before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-pink-500 relative inline-block"
+            className="text-3xl md:text-5xl font-semibold satisfy-regular mb-3 before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-pink-500 relative inline-block"
             style={{ color: "#4D3529" }}
           >
             <span className="relative text-white">Quick Links</span>
           </h2>
-          <div className="flex flex-wrap md:space-x-12">
+          <div className="flex flex-wrap justify-center md:justify-start md:space-x-8">
             <ul className="space-y-2">
               <li>
                 <Link to="/" className="text-gray-700 hover:text-gray-900">
@@ -62,7 +62,7 @@ const QuickLinks = () => {
         </div>
 
         {/* Social Media Section */}
-        <div className="flex space-x-6 justify-center md:justify-start text-2xl">
+        <div className="flex space-x-4 md:space-x-6 justify-center text-2xl">
           <a
             href="https://facebook.com"
             target="_blank"
@@ -100,4 +100,5 @@ const QuickLinks = () => {
     </footer>
   );
 };
+
 export default QuickLinks;
